@@ -1,0 +1,326 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Validate the login feature with valid credentials",
+        "description": "",
+        "id": "to-test-the-login-feature-of-the-wepage-adactin;validate-the-login-feature-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 536998,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Open the login page",
+            "match": {
+              "location": "StepDefinition.open_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10650,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Enter the \"mngr341161\" and \"erypUre\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mngr341161\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"erypUre\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinition.enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6144,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Enter the click button",
+            "match": {
+              "location": "StepDefinition.enter_the_click_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5325,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User can enter into input page",
+            "match": {
+              "location": "StepDefinition.user_can_enter_into_input_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@validLogin"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Validate the login feature with invalid credentials",
+        "description": "",
+        "id": "to-test-the-login-feature-of-the-wepage-adactin;validate-the-login-feature-with-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10240,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Open the login page",
+            "match": {
+              "location": "StepDefinition.open_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5735,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Enter the \"gnanas\" and \"erypUre\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gnanas\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"erypUre\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4915,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Enter the click button",
+            "match": {
+              "location": "StepDefinition.enter_the_click_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5734,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User can see the error page",
+            "match": {
+              "location": "StepDefinition.user_can_see_the_error_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@InvalidLogin"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Validate the login feature with invalid credentials",
+        "description": "",
+        "id": "to-test-the-login-feature-of-the-wepage-adactin;validate-the-login-feature-with-invalid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8602,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Open the login page",
+            "match": {
+              "location": "StepDefinition.open_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5325,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Enter the \"mngr341161\" and \"gnanas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mngr341161\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"gnanas\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinition.enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6144,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Enter the click button",
+            "match": {
+              "location": "StepDefinition.enter_the_click_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5325,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User can see the error page",
+            "match": {
+              "location": "StepDefinition.user_can_see_the_error_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@InvalidLogin"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Validate the login feature with invalid credentials",
+        "description": "",
+        "id": "to-test-the-login-feature-of-the-wepage-adactin;validate-the-login-feature-with-invalid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7783,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Open the login page",
+            "match": {
+              "location": "StepDefinition.open_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5734,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Enter the \"admin\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinition.enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5325,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Enter the click button",
+            "match": {
+              "location": "StepDefinition.enter_the_click_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5735,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User can see the error page",
+            "match": {
+              "location": "StepDefinition.user_can_see_the_error_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@InvalidLogin"
+          }
+        ]
+      }
+    ],
+    "name": "To test the login feature of the wepage adactin",
+    "description": "",
+    "id": "to-test-the-login-feature-of-the-wepage-adactin",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucumber.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
