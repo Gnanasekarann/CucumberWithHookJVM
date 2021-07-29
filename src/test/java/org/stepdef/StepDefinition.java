@@ -72,6 +72,8 @@ public class StepDefinition extends LoginPage{
 	    String alerttext = alert.getText();
 	    Assert.assertEquals(alerttext, "User or Password is not valid");
     	System.out.println("Test passed");
+		
+		System.out.println("Test Successfully completed");
 	    /*if (alerttext=="User or Password is not valid") {
 	    	System.out.println("Test passed");
 		}else {
