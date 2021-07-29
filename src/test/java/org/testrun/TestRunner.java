@@ -24,6 +24,8 @@ public class TestRunner {
 public static void report() {
 	JVMReportingClass.jvmReporter("D:\\Users\\gnanas\\eclipse-workspace\\CucumberPractice\\target\\report.json");
 	System.out.println("Completed");
+		System.out.println("By Gnanasekaran");
+
 
 }
 
